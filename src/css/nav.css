@@ -1,0 +1,23 @@
+*{
+    list-style-type: none;
+    font-size: 13px;
+}
+nav div ul li .nav-link:hover{
+    color:#ffc107;
+}
+nav div ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #212529;
+    padding: 8px;
+    border-radius: 4px;
+}
+nav div ul li:hover ul{
+    display: block;
+}
+nav div ul li ul li .nav-link:hover{
+    background-color: rgba(204, 204, 204, 0.253)
+}
+nav div ul li ul li{
+    width: 185px;
+}
